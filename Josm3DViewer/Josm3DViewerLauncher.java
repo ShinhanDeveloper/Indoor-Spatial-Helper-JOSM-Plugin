@@ -8,13 +8,7 @@ import com.google.gson.JsonObject;
 import org.openstreetmap.josm.gui.MainApplication;
 
 public class Josm3DViewerLauncher implements Runnable  {
-//	final String JOSM_PATH ="D:\\project\\2020\\dinno\\src\\dinno"
-//				+ "\\shinhan_research\\Josm3DViewer"
-//				+ "\\bin\\x64\\Debug\\Josm3DViewer.exe";
-
-//	final String JOSM_PATH ="D:\\project\\2021\\dinno\\05.Shinhan\\src\\shinhan_research\\Josm3DViewer\\bin\\x64\\Debug\\Josm3DViewer.exe";
-
-	final String JOSM_PATH ="C:\\Program Files\\Josm3DViewer\\Josm3DViewer.exe";
+    final String JOSM_PATH ="C:\\Program Files\\Josm3DViewer\\Josm3DViewer.exe";
 	
     public interface CommunicationListener {
     	public void onCommunication(Josm3DViewerCommunicator communicator);
